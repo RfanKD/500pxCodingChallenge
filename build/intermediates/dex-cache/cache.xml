@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_7d648bb7cc4f1627fe8b1f45696ed35ab49de0a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_0063ba44f6a3d0abdd7a9aae942e477df4f4b803\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_4cd0d063b8083791f83d2a696f91767b999f9498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_05cd89cf17b6ecb15ac76e54e1b2d9cf8ebd33bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_faa51bb170f911bd87388eba1c26fc4115cee829\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_24396cb80e96837f8f97b84d62bc2542bb036350\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_6204eb68307190889ec4d94af41ca8e3418d2d41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_b5cb8ffdde053b7c1e788c03044dc8024168f11b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1cdcc95738eb805fc153bc383b526274d9c04255\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_beab9ee2f111e3e2ef984af431eca3c029607f41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47338480f94d9cb0e4a6626dc658fe7f2132f5bb">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a5b6cf17bdb950a9c6e159ce04d6c6b0dc74ff52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7279a06b4252e832ef75e24c722ac353a4899874">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_26fe747bfb9b770e01516962d7a627d86ceef31a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_b754ab6a920eaf2a1b6038f55563c616f18209b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_54cc2f461e3770fdfc0c246a558dd18bea59433e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_93a072071a5a8fdbc156a2af39cd76db11ee11a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_47ab27a43e75daf968317c8132e1f76955ad0771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_5c1cd82aa3b9005acfd28a627146cd1c19226cf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_96199a7713dc69cb02385e96a4d4cd03ba11b1eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_546fcc61ac547d20be80fc8371c876fa81c4ae75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c3c55c3e0c8b613b2b69cc69fd50363dbdc7d957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_b6832b60ca11262c0b3a39345ed541f99cb2e99b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_61113c56143299ffaa170cf90b043c81d74118d7\classes.dex" />
+    </item>
+
+</items>
