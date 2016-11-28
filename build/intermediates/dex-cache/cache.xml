@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_0063ba44f6a3d0abdd7a9aae942e477df4f4b803\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Rfan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -93,11 +84,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_b4b2ffc3664e6af5e37f2503e926393830b3aaee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="47338480f94d9cb0e4a6626dc658fe7f2132f5bb">
+        sha1="590414e0a820283993236af6a4f679e93d3a40da">
         <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a5b6cf17bdb950a9c6e159ce04d6c6b0dc74ff52\classes.dex" />
     </item>
     <item
@@ -106,17 +106,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7279a06b4252e832ef75e24c722ac353a4899874">
+        sha1="efdfb3d1a3fa8cbaf89fec3910f5fedca181eede">
         <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_26fe747bfb9b770e01516962d7a627d86ceef31a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_b754ab6a920eaf2a1b6038f55563c616f18209b2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -198,6 +189,15 @@
         revision="25.0.0"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
         <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_61113c56143299ffaa170cf90b043c81d74118d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rfan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_7c59cc9084461a607137b8d5d52be33e8548969f\classes.dex" />
     </item>
 
 </items>

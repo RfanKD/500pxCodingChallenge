@@ -1,10 +1,12 @@
 package com.chonglin.rfan.rfancodingchallenge.Services;
 
 import com.chonglin.rfan.rfancodingchallenge.Model.Pictures;
+
 import retrofit2.Call;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.http.Field;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
+import retrofit2.http.Query;
 
 /**
  * Created by Rfan on 27/11/2016.
@@ -12,14 +14,12 @@ import retrofit2.http.GET;
 
 public interface ImageGallery500pxAPI {
 
-    String API_BASE_URL = "https://api.500px.com/v1" ;
-
     @GET("/photos")
-    Call<Pictures> getPhotos();
+    Call<Pictures> getPhotos(
+            @Query("consumer_key") String code);
 
-    Retrofit retrofit =
-            new Retrofit.Builder()
-                    .baseUrl(API_BASE_URL)
-                    .addConverterFactory(GsonConverterFactory.create()).build();
+    @POST("/token")
+    Call<AccessToken> getAccessToken(
+            @Field("oauth_consumer_key") String code);
 
 }
