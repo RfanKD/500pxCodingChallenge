@@ -14,7 +14,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String consumerKey = "nezVvBqd7GKQt2jfYogFFEmTzjVD8U2CPumXSsfS";
+    private final String consumerKey = "Y74D8h5g0w8ndi5mQInYhDZoIDyqYn5U7acltQ8Q";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,20 +22,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageGallery500pxAPI galleryService = ServiceGenerator.createService(ImageGallery500pxAPI.class);
-        Call<Pictures> call = galleryService.getPhotos(consumerKey);
-        call.enqueue(new Callback<Pictures>() {
+        Call<Pictures> calls = galleryService.getPhotos(consumerKey);
+        System.out.println("full url now is " + calls.request().url());
+        calls.enqueue(new Callback<Pictures>() {
             @Override
             public void onResponse(Call<Pictures> call,Response<Pictures> response) {
                 if (response.isSuccessful()) {
-                    System.out.println("successful " + response.toString());
+                    System.out.println("successful " + response.raw().toString());
+                    Pictures pictures = response.body();
+                    System.out.println("successful code " + pictures.total_items);
+
                 } else {
                     System.out.println("received response but error " + response.headers());
+
                 }
             }
 
             @Override
             public void onFailure(Call<Pictures> call,Throwable t) {
                 System.out.println("complete failure");
+                System.out.println("complete failure " + t.getMessage());
             }
         });
 

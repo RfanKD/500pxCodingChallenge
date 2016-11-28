@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ServiceGenerator {
 
-    public static final String API_BASE_URL = "https://api.500px.com/v1/" ;
+    public static final String API_BASE_URL = "https://api.500px.com/" ;
 
     private static OkHttpClient httpClient = new OkHttpClient();
 
@@ -21,6 +21,7 @@ public class ServiceGenerator {
 
     public static <S> S createService(Class<S> serviceClass) {
         Retrofit retrofit = builder.client(httpClient).build();
+        System.out.println(builder.toString());
         return retrofit.create(serviceClass);
     }
 

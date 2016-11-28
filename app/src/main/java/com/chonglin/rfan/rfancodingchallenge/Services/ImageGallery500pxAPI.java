@@ -14,9 +14,8 @@ import retrofit2.http.Query;
 
 public interface ImageGallery500pxAPI {
 
-    @GET("/photos")
-    Call<Pictures> getPhotos(
-            @Query("consumer_key") String code);
+    @GET("/v1/photos")
+    Call<Pictures> getPhotos(@Query("consumer_key") String code);
 
     @POST("/token")
     Call<AccessToken> getAccessToken(

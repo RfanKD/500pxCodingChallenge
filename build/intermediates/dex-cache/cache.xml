@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="590414e0a820283993236af6a4f679e93d3a40da">
+        sha1="15f041ac7416772b2de6d80f3efe1da02602b499">
         <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a5b6cf17bdb950a9c6e159ce04d6c6b0dc74ff52\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="efdfb3d1a3fa8cbaf89fec3910f5fedca181eede">
+        sha1="580fd38711b007c82af37b3ce9c24cb9b63c9cd1">
         <dex dex="C:\Rfan\Work\RfanCodingChallenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_26fe747bfb9b770e01516962d7a627d86ceef31a\classes.dex" />
     </item>
     <item

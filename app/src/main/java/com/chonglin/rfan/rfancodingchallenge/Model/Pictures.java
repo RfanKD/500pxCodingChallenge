@@ -6,11 +6,9 @@ package com.chonglin.rfan.rfancodingchallenge.Model;
 
 public class Pictures {
 
-    String feature;
-    int total_pages;
-    int total_items;
-
-    Photos[] photo;
-
+    public String feature;
+    public int total_pages;
+    public int total_items;
+    public Photos[] photos;
 
 }
