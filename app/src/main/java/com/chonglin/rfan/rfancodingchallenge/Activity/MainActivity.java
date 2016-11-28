@@ -16,6 +16,7 @@ import com.chonglin.rfan.rfancodingchallenge.Services.ServiceGenerator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,11 +25,14 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     private final String consumerKey = "Y74D8h5g0w8ndi5mQInYhDZoIDyqYn5U7acltQ8Q";
-    private final int numberOfPhoto = 36;
-    private ArrayList<Photos> images;
+    private int pageNumber = 1;
     private ProgressDialog pDialog;
     private MyImageAdapter mAdapter;
     private RecyclerView recyclerView;
+    private GridLayoutManager mLayoutManager;
+
+    private boolean mLoading = false;
+    private boolean mHasMore = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,32 +40,54 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mAdapter = new MyImageAdapter(getApplicationContext(), new ArrayList<Photos>());
 
+        mLayoutManager = new GridLayoutManager(getApplicationContext(), 3);
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(mAdapter);
+
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener(){
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                int totalItem = mLayoutManager.getItemCount();
+                int lastItemPos = mLayoutManager.findLastVisibleItemPosition();
+                if (mHasMore && !mLoading && totalItem - 1 != lastItemPos) {
+                    startLoading();
+                }
+            }
+        });
+
+        startLoading();
+
+    }
+
+    private void startLoading(){
         ImageGallery500pxAPI galleryService = ServiceGenerator.createService(ImageGallery500pxAPI.class);
-        Call<Pictures> calls = galleryService.getPhotos(consumerKey,numberOfPhoto);
+
+        if (!mLoading){
+            pageNumber++;
+        }
+
+        Call<Pictures> calls = galleryService.getPhotos(consumerKey,pageNumber);
         System.out.println("full url now is " + calls.request().url());
         calls.enqueue(new Callback<Pictures>() {
             @Override
-            public void onResponse(Call<Pictures> call,Response<Pictures> response) {
+            public void onResponse(Call<Pictures> call, Response<Pictures> response) {
                 if (response.isSuccessful()) {
                     System.out.println("successful " + response.raw().toString());
                     Pictures pictures = response.body();
-                    System.out.println("successful code " + pictures.total_items);
-                    images = new ArrayList<>(Arrays.asList(pictures.photos));
-                    System.out.println("image size:  " + images.size());
-                    mAdapter = new MyImageAdapter(getApplicationContext(), images);
 
-                    RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getApplicationContext(), 2);
-                    recyclerView.setLayoutManager(mLayoutManager);
-                    recyclerView.setItemAnimator(new DefaultItemAnimator());
-                    recyclerView.setAdapter(mAdapter);
+                    List<Photos> images  = new ArrayList<>(Arrays.asList(pictures.photos));
+                    mAdapter.addAll(images);
+                    mAdapter.notifyDataSetChanged();
+                    mLoading = false;
 
                 } else {
                     System.out.println("received response but error " + response.headers());
 
                 }
             }
-
             @Override
             public void onFailure(Call<Pictures> call,Throwable t) {
                 System.out.println("complete failure");
@@ -69,4 +95,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }

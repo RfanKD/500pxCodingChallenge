@@ -56,6 +56,10 @@ public class MyImageAdapter extends RecyclerView.Adapter<MyImageAdapter.MyViewHo
                 .into(holder.thumbnail);
     }
 
+    public void addAll(List<Photos> newList) {
+        images.addAll(newList);
+    }
+
     @Override
     public int getItemCount() {
         return images.size();
