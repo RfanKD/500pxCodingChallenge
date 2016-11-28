@@ -6,9 +6,15 @@ package com.chonglin.rfan.rfancodingchallenge.Model;
 
 public class Photos {
 
-    int id;
-    String name;
-    String image_url;
-    User user ;
+    public int id;
+    public String name;
+    public String image_url;
+    public User user ;
+
+    public String getImageUrl (){
+        return this.image_url;
+    }
+
+
 
 }
